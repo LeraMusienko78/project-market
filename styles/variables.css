@@ -1,10 +1,11 @@
 :root{
 
-/* * *Background*/
+/* *Background*/
 
 --primary-bg: #EAEAEA;
 --secondary-bg: #F5F5F5;
 --third-bg:#212844;
+--banner-ellips:#2C3454;
 --fourth-bg:#FFFFFF;
 --iphone-bg:#313131;
 --iphone-ellips-bg:#404040;
@@ -13,8 +14,54 @@
 --xiaomi-bg:#FFECDF;
 --xiaomi-ellips-bg:#FFD1B0;
 --additional-bg:#008ECC;
+--footer-ellips-bg:#0C9BDA;
+--spare-bg: #D9D9D9;
 
 
+/* *Bacground-button*/
+
+--primary-button-bg:#F3F9FB;
+--iphone-button-bg:#494949;
+--realme-button-bg:#FFC915;
+--xiaomi-button-bg:#FF6900;
+
+/* *Color-text */
+
+--primary-color:#666666;
+--secondary-color:#222222;
+--third-color:#00BECC;
+--fourth-color:#FFFFFF;
+--additional-color:#249B3E;
+--spare-color:#111111;
+
+/* *Font-Family */
+
+--font-family: 'Hanken Grotesk', sans-serif;
+
+/* *Font-size */
+
+--fs-xxl: 63px;
+--fs-xl: 30px;
+--fs-l: 24px;
+--fs-m: 20px;
+--fs-s: 16px;
+--fs-xs: 14px;
+
+/* *Margins */
+ 
+--margin-size-xl : 7rem;
+--margin-size-l : 2rem ;
+--margin-size-m : 1rem ;
+--margin-size-s : .8rem ;
+  
+  
+/* *Paddings */
+  
+--padding-size-xl : 3rem;
+--padding-size-l : 2rem ;
+--padding-size-m : 1rem ;
+--padding-size-s : .8rem ;
+ 
 }
 
 
