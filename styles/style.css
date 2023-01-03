@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
 
 @import "./variables.css";
 
@@ -18,14 +21,17 @@ li {
 }
 
 #app{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: gray;
-    
+}
 
+.conteiner{
+    width: 1440px;
+    height: 100vh;
+    background: var(--fourth-bg);
 }
 
 .header{
@@ -44,34 +50,44 @@ li {
 .header__about-text{
     margin-top: 14px;
     margin-left: 120px ;
-    width: 80%;
+    width: 30%;
 }
 
-.about-text{
+.about-text-1{
     font-size: var(--fs-xs);
     color: var(--primary-color);
 }
 
 .del-text{
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 12px;
 }
 
 .header__block{
     display: flex;
     margin-right: 120px;
-    width: 100%;
+    width: 406px;
     justify-content: space-around;
+}
+
+.about-text-2{
+    font-size: var(--fs-xs);
+    color: var(--primary-color);
 }
 
 .about-text-color{
     font-size: var(--fs-xs);
     margin-left: 10px;
+    color: black;
 }
 
 .header__deliver{
     display: flex;
     margin: 12px;
+    border-right: 2px solid var(--spare-bg);
+    width: 148.82px;
 }
 
 .icon-del1{
@@ -80,6 +96,9 @@ li {
 }
 
 .icon-del2{
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 15px;
     width: 3.69px;
     height: 3.69px;
 }
@@ -89,9 +108,14 @@ li {
     height: 13.7px;
 }
 
+
 .header__track{
     display: flex;
+    justify-content: start;
     margin-top: 12px;
+    border-right: 2px solid var(--spare-bg);
+    height: 18px;
+    width: 130px;
 }
 
 .icon-track-wrapper{
@@ -106,16 +130,20 @@ li {
 
 .track-text{
     margin-left: 10px;
+    font-size: var(--fs-xs);
+    color: var(--primary-color);
 }
 
 
 .header__all{
     display: flex;
     margin-top: 12px;
+    width: 100px;
 }
 .icon-all-wrapper{
     width: 13.87px;
     height: 13.87px;
+    margin-left: 10px;
 }
 
 .icon-all{
@@ -125,6 +153,8 @@ li {
 
 .all-text{
     margin-left: 10px;
+    font-size: var(--fs-xs);
+    color: var(--primary-color);
 }
 
 .header__logo{
@@ -132,6 +162,7 @@ li {
     width: 1440px;
     height: 90px;
     background: var(--fourth-bg);
+    border-bottom: 2px solid var(--primary-bg);
 }
 
 .logo-wrapper{
@@ -235,5 +266,97 @@ li {
     margin-top: 7px;
     width: 2px;
 }
+
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+}
+
+.icon__sign-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-sign-1{
+    width: 8px;
+    height: 8px;
+}
+
+.icon-sign-2{
+    width: 12px;
+    height: 5px;
+    margin-top: 3px;
+}
+
+.sign-text-wrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    border-right: 1px solid var(--spare-bg);
+    padding: 20px;
+    height: 24px;
+    color: var(--primary-color);
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.icon__cart{
+    width: 19px;
+    height: 14.5px;
+}
+
+.cart-text-wrapper{
+    margin-left: 9px;
+    color: var(--primary-color);
+    font-family: var();
+}
+
+.section{
+    padding: 10px;
+}
+
+.nav{
+    padding: 5px;
+    margin-left: 120px;
+}
+
+.button__nav{
+    margin-top: 16px;
+    margin-left: 10px;
+    padding: 9px;
+    font-size: var(--fs-xs);
+    border-radius: 18px;
+}
+
+.arrow-wrapper{
+   
+}
+
+.img-arrow{
+    width:10.5px;
+    height: 5.05px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+   
+}
+
+.link-arrow__nav{
+   
+   
+}
+
+
+
+
+
+
 
 
