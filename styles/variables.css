@@ -29,14 +29,15 @@
 
 --primary-color:#666666;
 --secondary-color:#222222;
---third-color:#00BECC;
+--third-color:#008ECC;
 --fourth-color:#FFFFFF;
 --additional-color:#249B3E;
 --spare-color:#111111;
 
 /* *Font-Family */
 
---font-family: 'Hanken Grotesk', sans-serif;
+--font-family-x:'Hanken Grotesk', sans-serif; 
+--font-family-xl:'Hanken Grotesk', sans-serif;
 
 /* *Font-size */
 
