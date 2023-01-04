@@ -412,7 +412,6 @@ li {
     background: var(--primary-button-bg);
     position: absolute;
     margin-left: -1200px;
-    /* margin-bottom: -100px; */
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -435,13 +434,11 @@ li {
     background: var(--primary-button-bg);
     position: absolute;
     margin-left: 1200px;
-    /* margin-bottom: -100px; */
     border-radius: 50%;
     border: 5px solid white;
 }
 
 .ellips-right__button{
-    /* margin-left: 555px; */
     margin-bottom: 87px;
 }
 
@@ -723,6 +720,152 @@ li {
    margin-top: 20px;
    margin-left: 30px;
 }
+
+.brand{
+    margin-top: 120px;
+}
+
+.block-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    margin-top: 40px;
+}
+
+.iphone{
+    width: 389px;
+    height: 207px;
+    background: var(--iphone-bg);
+    border-radius: 16px;
+}
+
+.block-about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.button__iphone{
+    width: 99px;
+    height: 35px;
+    background: var(--iphone-button-bg);
+    border: none;
+    border-radius: 10px;
+}
+
+.brand-iphone{
+    color: var(--fourth-color);
+}
+
+.logo-wrapper__apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 62px;
+    height: 62px;
+    background: var(--fourth-bg);
+    border-radius: 16px;
+}
+
+.logo-apple{
+    width: 37px;
+    height: 35px;
+}
+
+.sale-iphone{
+    margin-top: 20px;
+    color: var(--fourth-bg);
+    font-size: var(--fs-l);
+}
+
+.ellips-iphone-1{
+    position: absolute;
+    margin-left: 172px;
+    width: 216px;
+}
+
+.ellips-iphone-2{
+    position: absolute;
+    margin-left: 182px;
+    width: 206px;
+    border-radius: 16px;
+}
+
+.img-apple{
+    width: 154px;
+    height: 285px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 231px;
+}
+
+.realme{
+    width: 389px;
+    height: 207px;
+    background: var(--realme-bg);
+    border-radius: 16px;
+}
+
+.ellips-realme-1{
+    position: absolute;
+    margin-left: 172px;
+    width: 216px;
+}
+
+.ellips-realme-2{
+    position: absolute;
+    margin-left: 182px;
+    width: 206px;
+    border-radius: 16px;
+}
+
+.img-realme{
+    width: 174px;
+    height: 285px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 211px;
+}
+
+.button__realme{
+    width: 99px;
+    height: 35px;
+    background: var(--realme-ellips-bg);
+    border: none;
+    border-radius: 10px;
+}
+
+.name-brand{
+    color: var(--secondary-color);
+}
+
+.logo-wrapper__realme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 114px;
+    height: 34px;
+    background: var(--realme-button-bg);
+}
+
+.logo-realme{
+    width: 90px;
+    height: 20px;
+}
+
+.sale-realme{
+    color: var(--secondary-color);
+    margin-top: 20px;
+    font-size: var(--fs-l);
+}
+
+
+
+
+
+
 
 
 
