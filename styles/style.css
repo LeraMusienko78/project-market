@@ -544,14 +544,17 @@ li {
     border-bottom: 1px solid var(--spare-bg);
 }
 
+.products{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
 .block-products{
     width: 227px;
     height: 295px;
     border-radius: 16px;
     margin-top: 40px;
     border:1px solid #EDEDED;
-
-    
 }
 
 .block-product{
@@ -559,37 +562,78 @@ li {
     justify-content: space-between;
     width: 227px;
     height: 188px;
+    border-radius:16px;
     background: var(--primary-bg);
-    
 }
 
 .img-product-wrapper{
    
 }
 
-.img-product{
+.img-product-1{
     width: 84px;
     height: 158px;
     margin-top: 20px;
     margin-left: 70px;
 }
 
-.sale-wrapper{
 
-    width: 51px;
+
+.img-product-2{
+    width: 126px;
+    height: 164px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.img-product-3{
+    width: 126px;
+    height: 178px;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.img-product-4{
+    width: 126px;
+    height: 164px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.img-product-5{
+    width: 116px;
+    height: 164px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+
+.sale-wrapper{
+    /* width: 51px;
     height: 53px;
     display: flex;
     justify-content: end;
     background: var(--additional-bg);
-    border-radius: 16px;
+    border-radius: 16px; */
+}
+
+.sale{
+    width: 51px;
+    height: 53px;
+    margin-left: 20px;
 }
 
 .percent{
-    display: flex; 
+    position: absolute;
+    /* display: flex; 
     align-items: center;
-    justify-content: center;
-    margin: 10px; 
-    color: #EDEDED;
+    justify-content: center; */
+    width: 35px;
+    height: 32px;
+    margin-top: 10px; 
+    margin-left: -40px;
+    color: white;
 }
 
 .block-price{
@@ -597,7 +641,10 @@ li {
     flex-direction: column;
     justify-content: center;
     margin: 12px;
-    /* align-items: center; */
+}
+
+.title-product{
+    font-size: var(--fs-s);
 }
 
 .before-after{
@@ -606,8 +653,14 @@ li {
    
 }
 
+.befor-price{
+    font-size: var(--fs-s);
+    color: #222222;
+}
+
 .after-price{
-    margin-left:10px ;
+    margin-left:20px ;
+    text-decoration: line-through;
 }
 
 .line__befor-after{
