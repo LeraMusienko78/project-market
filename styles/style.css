@@ -836,7 +836,7 @@ li {
     border-radius: 10px;
 }
 
-.name-brand{
+.brand-realme{
     color: var(--secondary-color);
 }
 
@@ -860,6 +860,71 @@ li {
     margin-top: 20px;
     font-size: var(--fs-l);
 }
+
+.xiaomi{
+    width: 389px;
+    height: 207px;
+    background: var(--realme-bg);
+    border-radius: 16px;
+}
+
+.ellips-xiaomi-1{
+    position: absolute;
+    margin-left: 172px;
+    width: 216px;
+}
+
+.ellips-xiaomi-2{
+    position: absolute;
+    margin-left: 182px;
+    width: 206px;
+    border-radius: 16px;
+}
+
+.img-xiaomi{
+    width: 174px;
+    height: 285px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 211px;
+}
+
+.button__xiaomi{
+    width: 99px;
+    height: 35px;
+    background: var(--realme-ellips-bg);
+    border: none;
+    border-radius: 10px;
+}
+
+.brand-xiaomi{
+    color: var(--secondary-color);
+}
+
+.logo-wrapper__xiaomi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 67px;
+    height: 67px;
+    background: var(--xiaomi-bg);
+}
+
+.logo-xiaomi{
+    width: 67px;
+    height: 67px;
+}
+
+.sale-xiaomi{
+    color: var(--secondary-color);
+    margin-top: 20px;
+    font-size: var(--fs-l);
+}
+
+
+
+
 
 
 
