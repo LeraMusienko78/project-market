@@ -983,7 +983,7 @@ li {
 .img-essent-3{
     width:176px ;
     height:153px ;
-    margin: 20px;
+    margin: 15px;
 }
 
 .img-essent-4{
@@ -1024,6 +1024,86 @@ li {
     display: flex;
     justify-content: space-between;
 }
+
+.footer{
+    background: var(--additional-bg);
+    margin-top: 120px;
+}
+
+.content__footer{
+    margin-left: 120px;
+}
+
+.contacts__footer{
+    margin-top: 80px;
+}
+
+.img__logo{
+    margin-top: 80px;
+    width: 217px;
+    height: 44px;
+}
+
+.title{
+    margin-top: 34px;
+    font-size: var(--fs-m);
+    color: var(--fourth-color);
+}
+
+.block__contact{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.img-contact-wrapper{
+    width: 21px;
+    height: 21px;
+}
+
+.icon-whatsapp-1{
+    width: 21px;
+    height: 21px;
+}
+
+.icon-whatsapp-2{
+    width: 5.62px;
+    height: 5.62px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -13px;
+}
+
+.text-wrapper__contact{
+    margin-left:12.5px;
+    color: var(--fourth-color);
+}
+
+.icon-call-1{
+    width: 21px;
+    height: 21px;
+}
+
+.icon-call-2{
+    width: 5.62px;
+    height: 5.62px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -9px;
+}
+
+.download-wrapper{
+    margin-top: 20px;
+}
+
+.img-dow{
+    width: 167px;
+    height: 55px;
+}
+
+
+
+
 
 
 
