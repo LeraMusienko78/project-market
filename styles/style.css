@@ -1145,6 +1145,26 @@ li {
     margin-left: -50px;
 }
 
+.line__footer{
+    margin-top: 83px;
+    margin-left: 120px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid var(--footer-ellips-bg);
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1200px;
+    color: var(--footer-ellips-bg);
+}
+
+.text__footer{
+    display: flex;
+    justify-content: center;
+    color: var(--fourth-color);
+    font-size: var(--fs-m);
+    padding: 30px;
+}
+
 
 
 
